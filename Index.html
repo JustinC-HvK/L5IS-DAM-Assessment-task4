@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+            background-color: white;
+        }
+        .footer{
+    background-color: rgb(216, 216, 216);
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    left: 0px;
+        }
+/*Icons for footer. Changing color and adding rounded corners*/
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+    background-color: red;
+    color: white;
+}
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/*When hoving over an icon they picture will go to 0.7 opacity*/ 
+.fa:hover {
+    opacity: 0.7;
+}
+        .Header{
+            
+            height: 80px;
+            width: 101.5%;
+            overflow: hidden;
+            background-color: black;
+            position: absolute;
+            top: 0px;
+            left: -10px;
+        }
+        .LogoIMG{
+            height: 70%;
+            padding: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+        .Title{
+            padding: 100px;
+            text-align: center;
+            color: black;
+
+            font-family: "Avant Garde", Avantgarde,
+     "Century Gothic", CenturyGothic, AppleGothic,
+      sans-serif; font-size: 50px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 550;
+      line-height: 20px;
+      letter-spacing: 7px;
+        }
+        .img{
+            width: 100%;
+        }
+        h2{
+            font-family: "Avant Garde", Avantgarde,
+     "Century Gothic", CenturyGothic, AppleGothic,
+      sans-serif; font-size: 30px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 540;
+      line-height: 20px;
+      letter-spacing: 5px;
+        }
+        form{
+    color: grey;
+    text-align: center;
+    width: 500px;
+    left: 50%;
+    right: 50%;
+    transform: translate(107%)
+}
+fieldset{
+    border-color: rgb(202, 202, 202);
+    border-style: solid;
+    font-family: "Avant Garde", Avantgarde,
+    "Century Gothic", CenturyGothic, AppleGothic,
+    sans-serif; font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 25px;
+    display: block;
+    color: grey;
+}
+.button {
+  background-color: #bbbbbb; /* Green */
+  border: none;
+  color: rgb(236, 236, 236);
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Avant Garde", Avantgarde,
+    "Century Gothic", CenturyGothic, AppleGothic,
+    sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.button:hover{
+    opacity: 0.7;
+}
+    </style>
+</head>
+<body>
+    <div class="Header">
+        <img src="WestfieldLogo.png" alt="Logo" class="LogoIMG">
+    </div>
+    <div>
+        <h1 class="Title">A Mall For Family</h1>
+    </div>
+    <div>
+        <img src="Brands.PNG" alt="brands" class="img" style="display: block; margin-left: auto; margin-right: auto;">
+    </div>
+    <br><br><br><br><br><br>
+    <form>
+        <h2>Feedback Form:</h2>
+        <fieldset>
+        <label for="name">Name *</label> <br>
+        <input type="text" id="name" name="name" style="width: 340px;">
+        <br><br>
+        <label for="Email">Email *</label> <br>
+        <input type="text" id="email" name="email" style="width: 340px;">
+        <br><br>
+        <label for="Phone">Phone *</label> <br>
+        <input type="text" id="Phone" name="Phone" style="width: 340px;">
+        <br><br>
+        <label for="Subject">Subject *</label> <br>
+        <input type="text" id="Subject" name="Subject" style="width: 340px;">
+        <br><br>
+        <label for="Message">Message *</label> <br>
+        <textarea rows="10" cols="30" id="Message" name="Message" style="width: 340px;"></textarea>
+        <br>
+        <input type="submit" value="Submit" class="button">
+        </fieldset>
+    </form>
+    <br><br><br><br>
+    <div class="footer">
+        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+        <img href="" style="width:1.2%; padding: 0px;" src="https://cdn.discordapp.com/attachments/511733115241234472/778179701532393492/whatsapp-icon.png"></a>
+    </div>
+</body>
+</html>
